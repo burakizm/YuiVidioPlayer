@@ -30,7 +30,7 @@ async def _human_time_duration(seconds):
 async def start(client, m: Message):
    if m.chat.type == 'private':
        insert(int(m.chat.id))
-       await m.reply_text(f"**I am A advanced Anime Theme VC Video Player created for playing Video in the voice chats of Telegram Groups & Channels. \n\n**Type /help To View Comands:-** __ \n1) Type /info To View Devs`",   
+       beklemek  m . answer_text ( f"**Ben, sesli sohbetlerinde Video oynatmak için oluşturulmuş gelişmiş bir Anime Tema VC Video Oynatıcıyım. \n\n**Yazın /help Komutları Görüntülemek İçin:-** __ \n1) Tür /info Geliştirmeleri Görüntülemek İçin`" ,   
                             reply_markup=InlineKeyboardMarkup(
                                 [[
                                      InlineKeyboardButton(
